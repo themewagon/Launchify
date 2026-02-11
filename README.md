@@ -1,4 +1,4 @@
-# Prompt2App - AI App Builder SaaS Template
+# Launchify - Free Landing Page Template
 
 #### Preview
 
