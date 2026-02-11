@@ -30,7 +30,7 @@
 
         <!-- Navbar -->
         <nav class="z-50 flex w-full items-center justify-between px-4 py-4 text-sm md:px-16 lg:px-24 xl:px-40">
-            <a href="/">
+            <a href="#!">
                 <img alt="Logo" width="130" height="36" class="h-10 w-auto" src="./assets/logo.svg" />
             </a>
             <div class="hidden items-center gap-8 text-slate-800 transition duration-500 md:flex">
@@ -40,8 +40,8 @@
                 <a class="transition hover:text-green-600" href="#pricing">Pricing</a>
             </div>
             <div class="flex gap-2">
-                <a class="hidden rounded-full bg-green-500 px-7 py-2 text-white transition-all hover:bg-green-600 active:scale-95 md:block" href="/">Get started</a>
-                <a class="hidden rounded-full border border-gray-200 px-7 py-2 text-slate-700 transition-all hover:bg-slate-50 hover:text-slate-900 active:scale-95 md:block" href="/">Login</a>
+                <a class="hidden rounded-full bg-green-500 px-7 py-2 text-white transition-all hover:bg-green-600 active:scale-95 md:block" href="#!">Get started</a>
+                <a class="hidden rounded-full border border-gray-200 px-7 py-2 text-slate-700 transition-all hover:bg-slate-50 hover:text-slate-900 active:scale-95 md:block" href="#!">Login</a>
             </div>
             <button class="transition active:scale-90 md:hidden" id="open-menu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true">
@@ -106,7 +106,7 @@
                 <h1 class="mt-4 max-w-5xl text-center text-5xl font-semibold md:text-6xl md:leading-17.5">Build, launch and scale <span class="bg-linear-to-r from-green-700 to-green-600 bg-clip-text text-nowrap text-transparent">your business</span> with AI.</h1>
                 <p class="my-7 max-w-lg text-center text-base text-zinc-600">Launchify helps startups and creators build best websites and products using AI-powered tools, no design or coding skills required.</p>
                 <div class="flex items-center gap-4">
-                    <a class="m-1 flex h-12 items-center rounded-full bg-green-500 px-9 text-white ring-1 ring-green-400 ring-offset-2 transition-colors hover:bg-green-600" href="/" data-discover="true">
+                    <a class="m-1 flex h-12 items-center rounded-full bg-green-500 px-9 text-white ring-1 ring-green-400 ring-offset-2 transition-colors hover:bg-green-600" href="#!" data-discover="true">
                         Get started
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-1 size-5" aria-hidden="true">
                             <path d="M5 12h14"></path>
@@ -241,7 +241,7 @@
         </div>
 
         <!-- Testimonials -->
-        <div class="flex flex-col items-center justify-center">
+        <div id="testimonials" class="flex flex-col items-center justify-center">
             <div class="flex items-center gap-2 rounded-full bg-green-400/10 px-6 py-1.5 text-sm text-green-600">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-code size-4" aria-hidden="true">
                     <path d="m10 9-3 3 3 3"></path>
@@ -253,7 +253,7 @@
             <div class="mt-6 text-center text-slate-700">
                 <h2 class="text-3xl font-medium sm:text-4xl">Loved by teams worldwide</h2>
                 <p class="mt-4 max-w-xl text-base text-slate-500">Hear what founders, designers and developers say about building with Launchify.</p>
-            </div>
+            </div> 
         </div>
 
         <div class="marquee-row relative mx-auto w-full max-w-5xl overflow-hidden">
@@ -269,7 +269,7 @@
         </div>
 
         <!-- Pricing -->
-        <div class="flex flex-col items-center px-4 py-16">
+        <div id="pricing" class="flex flex-col items-center px-4 py-16">
             <h1 class="mb-3 text-center text-3xl text-neutral-800 md:text-4xl">Launch free today. Scale anytime.</h1>
             <p class="mb-8 text-center text-sm text-neutral-600">
                 No credit card required. Upgrade only when<br class="hidden md:block" />
